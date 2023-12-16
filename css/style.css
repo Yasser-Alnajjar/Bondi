@@ -178,14 +178,11 @@ body {
 }
 .subscribe input[type="text"] {
   border: none;
-  border-bottom: 1px solid white;
-  caret-color: var(--section);
+  border-bottom: 1px solid var(--red);
+  caret-color: var(--red);
 }
 .subscribe input[type="text"]:focus {
   outline: none;
-}
-.subscribe input::placeholder {
-  color: white;
 }
 .subscribe .main-btn {
   background-color: var(--dark);
